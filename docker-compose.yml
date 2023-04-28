@@ -13,7 +13,7 @@ services:
       - javahome-app
   redis:
     container_name: redis
-    image: "redis"
+    image: "redis1"
     networks:
       - javahome-app
 networks:
